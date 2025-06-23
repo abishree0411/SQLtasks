@@ -1,31 +1,15 @@
 # SQLtasks
 new repo
-Library Management System
-Entities could include: Books, Authors, Members, Loans
+Domain Chosen: Library Management System
+Entities (Tables):
+Authors - Writers of books
+Books - Library collection items
+Members - Library users
+Loans - Borrowing transactions
 Relationships:
-A Book can have one or more Authors
-A Member can borrow many Books (via Loans)
-Each Loan refers to one Book and one Member
-Books
-book_id (PK)
-title
-author_id (FK)
-isbn
-published_year
-Authors
-author_id (PK)
-name
-bio
-Members
-member_id (PK)
-name
-email
-join_date
-Loans
-loan_id (PK)
-book_id (FK)
-member_id (FK)
-loan_date
-return_date
+Authors → Books (One-to-Many): One author can write multiple books
+Members → Loans (One-to-Many): One member can have multiple loans
+Books → Loans (One-to-Many): One book can be borrowed multiple times
+Loans connects Books and Members (Many-to-Many relationship)
 
 
