@@ -61,3 +61,4 @@ GROUP BY m.member_id, m.name;
     FOREIGN KEY (book_id) REFERENCES Books(book_id),
     FOREIGN KEY (member_id) REFERENCES Members(member_id)
 );
+![image_alt](
