@@ -61,4 +61,4 @@ GROUP BY m.member_id, m.name;
     FOREIGN KEY (book_id) REFERENCES Books(book_id),
     FOREIGN KEY (member_id) REFERENCES Members(member_id)
 );
-![image_alt](https://github.com/abishree0411/SQLtasks/blob/8b41d119cd7d1c572550cd2dd67ac277034e371f/Screenshot%202025-06-23%20215531.png)
+![image_alt](https://github.com/abishree0411/SQLtasks/blob/f0a9c8fde4a2989d2efc18b57c23644b2623d431/Screenshot%202025-06-23%20215531.png)
